@@ -11555,6 +11555,19 @@ body {
   letter-spacing: 0.15rem;
   border: 0;
 }
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 100px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 .masthead {
   position: relative;
