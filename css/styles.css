@@ -11556,7 +11556,7 @@ body {
   border: 0;
 }
 .column {
-  float: left;
+  float: center;
   width: 33.33%;
   padding: 100px;
 }
